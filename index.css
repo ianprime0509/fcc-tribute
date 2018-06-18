@@ -1,0 +1,75 @@
+a {
+  color: hsl(35, 65%, 20%);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: hsl(32, 65%, 40%);
+}
+
+blockquote {
+  border-left: 2px solid hsl(32, 65%, 20%);
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+body {
+  background: hsl(35, 65%, 90%);
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  border-top: 1px solid hsl(32, 65%, 20%);
+  color: hsl(32, 65%, 20%);
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.caption {
+  color: hsl(35, 65%, 20%);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.img-primary {
+  display: block;
+  margin: 1rem auto;
+  max-width: 20rem;
+  width: 90%;
+}
+
+.subtitle {
+  color: hsl(35, 65%, 20%);
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+#main {
+  background: hsl(35, 65%, 80%);
+  color: hsl(35, 65%, 10%);
+  margin: 0;
+  padding: 1rem 1rem 0.5rem 1rem;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  #main {
+    margin: 1rem auto;
+    max-width: 30rem;
+  }
+}
